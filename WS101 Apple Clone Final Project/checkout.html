@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="body-checkout">
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <a href="mobile-nav.html">
+                        <div class="menu-icon-container">
+                            <div class="menu-icon">
+                                <span class="line-1"></span>
+                                <span class="line-2"></span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="home.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="#" class="link-bag"></a>
+                </li>
+            </ul>
+            <ul class="desktop-nav">
+                <li>
+                    <a href="home.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="ProductMac.html">Mac</a>
+                </li>
+                <li>
+                    <a href="ProductiPad.html">iPad</a>
+                </li>
+                <li>
+                    <a href="ProductiPhone.html">iPhone</a>
+                </li>
+                <li>
+                    <a href="ProductWatch.html">Watch</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+                <li>
+                    <a href="sampleCart.html" class="link-bag"></a>
+                </li>
+            </ul>
+        </nav>
+        <!--End of navigation menu items-->
+    </div>
+    <div class="check-out-heading">
+        <p>Checkout.</p>
+    </div>
+    <div class="form-container1">
+        <form action="#" method="get">
+            <div class="form-sections">
+            <h2 class="form-title">Sign in with Apple ID for faster checkout</h2>
+            <label for="apple-id">Apple ID</label>
+            <input type="text" name="apple-id" id="apple-id" placeholder="123456"  required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="********" required>
+            </div>
+            <div class="form-sections">
+                <h2 class="form-title">Address Details</h2>
+                <label for="zipcode">Zip Code</label>
+                <input type="text" name="zipcode" id="zipcode" placeholder="123456" required>
+                <label for="address">Complete Address</label>
+                <input type="text" name="addrerss" id="address" placeholder="Street, Barangay, Municipality, Province, Country" required>
+            </div>
+            <div class="form-sections">
+                <h2 class="form-title">Payment Details</h2>
+                <label for="name">Name on card</label>
+                <input type="text" name="name" id="name" placeholder="Your name and surname" required>
+                <label for="Card">Card number</label>
+                <input type="text" name="Card" id="Card" placeholder="1111-2222-3333-4444" required>
+                <div class="input-container">
+                    <div class="input-line">
+                        <label for="expire">Expiring Date</label>
+                        <input type="text" name="expire" id="expire" placeholder="09-21" required>
+                    </div>
+                    <div class="input-line">
+                        <label for="cvc">CVC</label>
+                        <input type="password" name="cvc" id="cvc" placeholder="***" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-sections">
+                <p class="summary">Order summary: ₱ 216,627.99</p><br>
+                <input type="submit" value="Complete purchase">
+            </div>
+            
+        </form>
+    </div>
+    <footer class="foot">
+        <center>
+            <span class="link-logo2"></span></center>
+    </footer>
+
+  
+</body>
+</html>

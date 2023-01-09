@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: monospace;
+    background: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    overflow: scroll;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+video.intro{
+    width: 100%;
+    height: auto;
+}
+center.intro{
+    width: 100%;
+    color: white;
+    padding-top: 150px;
+    font-size: 50px;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+}
+
+.question{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.gallery{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 50px 0;
+}
+.gallery a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    padding-left: 0;
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+img{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+}
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+}
+h4{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding: 5px;
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+}
+.checked{
+    color: #ff9f43;
+}
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.buy-1{
+    background: black;
+}
+.buy-2{
+    background: black;
+}
+.buy-3{
+    background: black;
+}
+.buy-4{
+    background: black;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 100px;
+}
+
+.link-logo1{
+    background: url('img/icons/apple-logo.svg');
+    display: block;
+    background-position: center;
+    height: 50px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+@media(max-width: 1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width: 1000px){
+    .content{
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    .question{
+        font-size: 30px;
+    }
+}
+
+video::-webkit-media-controls-timeline {
+    display: none;
+}

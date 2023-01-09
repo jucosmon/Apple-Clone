@@ -1,0 +1,49 @@
+main {
+    padding-top: -100px;
+}
+.home-page{
+    padding-top: 100px;
+}
+.home-page>img{
+    width: 100%;
+    height: auto;
+    padding: 10 0px;
+}
+
+.home-grid{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.home-grid>img{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 100px;
+}
+.link-logo1{
+    background: url('img/icons/apple-logo.svg');
+    display: block;
+    background-position: center;
+    height: 50px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 1000px){
+    .home-page{
+        padding-top: 50px;
+    }
+    .home-grid>img{
+        width: 40%;
+    }
+}
